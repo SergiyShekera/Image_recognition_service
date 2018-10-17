@@ -1,6 +1,8 @@
 Made on Python 3.6.4
 
-When uploading an image, the server processes it and provides information on the image.   
+When uploading an image, the server processes it and provides information on the image.
+
+After starting the server, go to http://localhost:8000/app/img-inf                                 
 Click OK to send the image to the server.
       
                                                                                                                   
