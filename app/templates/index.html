@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get image Information</title>
+    <style>
+        .p{
+            display: block;
+            margin-bottom: 10px;
+
+        }
+        .color{
+            background-color: rgb({{content.avg_color}})
+        }
+        #d{width: 50px;
+           height: 100px
+        }
+
+    </style>
+</head>
+<body  >
+<center><h1>Get image Information</h1></center>
+
+<form action="http://localhost:8080/app/img-inf" enctype="multipart/form-data" method="POST">
+    {% csrf_token %}
+    <label class="p">
+        Image: <input type="file" name="image" required>
+    </label>
+    <label class="p" ><input type="submit" value="OK"> <input type="reset" value="RESET"></label>
+
+
+
+</form>
+<div>
+    Width - {{content.width}}
+    Height - {{content.height}}
+    <div>Average color(RGB) - {{content.avg_color}} <div id="d" class="color">   </div> </div>
+</div>
+
+</html>
