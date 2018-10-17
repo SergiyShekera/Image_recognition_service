@@ -7,5 +7,6 @@ Click OK to send the image to the server.
       
                                                                                                                   
           
-Screenshot of work
+Screenshots of work
 ![Image alt](https://github.com/SergiyShekera/Image_recognition_service/blob/master/screenshots/screenshot_1.png)
+![Image alt](https://github.com/SergiyShekera/Image_recognition_service/blob/master/screenshots/screenshot_2.png)
